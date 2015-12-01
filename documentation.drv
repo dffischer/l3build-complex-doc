@@ -1,0 +1,10 @@
+\documentclass{ltxdoc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\begin{document}
+Let me present some examples.
+\DocInput{examples.dtx}
+This is how the examples look when compiled. \\
+\fbox{\includegraphics{italic.pdf}}
+\fbox{\includegraphics{bold.pdf}}
+\end{document}
